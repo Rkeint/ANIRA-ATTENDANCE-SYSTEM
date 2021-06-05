@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.fragments.MarkRegister"
+    android:background="@drawable/iphone_fade">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="393dp"
+            android:layout_height="89dp"
+            android:fontFamily="@font/cambay"
+            android:hint="Enter code here"
+            android:text="To mark your attendance please pick the class and enter the code provided to you by your lecturer"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.119" />
+
+        <EditText
+            android:id="@+id/txtCode"
+            android:layout_width="263dp"
+            android:layout_height="37dp"
+            android:background="@drawable/border2"
+            android:backgroundTint="#59000000"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.602" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="61dp"
+            android:layout_height="33dp"
+            android:fontFamily="@font/timmana"
+            android:text="Class"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.372" />
+
+        <Button
+            android:id="@+id/btnMark"
+            android:layout_width="153dp"
+            android:layout_height="38dp"
+            android:background="@drawable/border2"
+            android:backgroundTint="#66000000"
+            android:text="Mark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.711" />
+
+        <Spinner
+            android:id="@+id/spinnerClass"
+            android:layout_width="253dp"
+            android:layout_height="39dp"
+            android:background="@drawable/border2"
+            android:backgroundTint="#59000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="179dp"
+            android:layout_height="30dp"
+            android:fontFamily="@font/timmana"
+            android:text="Code provided by Lec"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.541" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="259dp"
+            android:layout_height="5.5dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#80E64A19"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.209" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

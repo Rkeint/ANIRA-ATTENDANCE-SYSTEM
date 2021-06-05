@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lec_main"
+    app:startDestination="@id/menuLecHome">
+
+    <fragment
+        android:id="@+id/menuLecHome"
+        android:name="com.example.aasv11.Lecturer.fragments.LecHome"
+        android:label="Home"
+        tools:layout="@layout/fragment_lec_home" />
+    <fragment
+        android:id="@+id/menuCallRegister"
+        android:name="com.example.aasv11.Lecturer.fragments.CallRegister"
+        android:label="Call Register"
+        tools:layout="@layout/fragment_call_register" />
+    <fragment
+        android:id="@+id/lec_logout"
+        android:name="com.example.aasv11.Lecturer.fragments.Logout"
+        android:label="Logout"
+        tools:layout="@layout/popup" />
+</navigation>

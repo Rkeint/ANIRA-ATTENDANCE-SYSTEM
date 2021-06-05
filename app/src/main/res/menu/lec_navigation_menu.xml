@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuLecHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/menuCallRegister"
+        android:icon="@drawable/ic_add_user"
+        android:title="Call Register"/>
+
+    <item
+        android:id="@+id/menuLecClass"
+        android:icon="@drawable/ic_class"
+        android:title="Classes"/>
+
+    <item
+        android:id="@+id/lec_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+
+</menu>

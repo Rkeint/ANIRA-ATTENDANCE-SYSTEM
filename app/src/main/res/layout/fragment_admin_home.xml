@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.fragments.AdminHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mac_os_light"
+        android:backgroundTintMode="src_over">
+
+        <TextView
+            android:id="@+id/txtCourseNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Courses"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.665" />
+
+        <TextView
+            android:id="@+id/txtLecNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Lecturers"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.187" />
+
+        <TextView
+            android:id="@+id/txtStudnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of Students"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.113"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.423" />
+
+        <TextView
+            android:id="@+id/LecNum"
+            android:layout_width="47dp"
+            android:layout_height="56dp"
+            android:fontFamily="@font/anton"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.707"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtLecNum" />
+
+        <TextView
+            android:id="@+id/StudNum"
+            android:layout_width="46dp"
+            android:layout_height="63dp"
+            android:fontFamily="@font/anton"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.706"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtStudnum" />
+
+        <TextView
+            android:id="@+id/CourseNum"
+            android:layout_width="56dp"
+            android:layout_height="64dp"
+            android:fontFamily="@font/anton"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCourseNum" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

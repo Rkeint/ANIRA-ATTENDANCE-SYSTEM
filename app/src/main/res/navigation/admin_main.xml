@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_main"
+    app:startDestination="@id/menuAdminHome">
+
+    <fragment
+        android:id="@+id/menuAdminHome"
+        android:name="com.example.aasv11.Admin.fragments.AdminHome"
+        android:label="Home"
+        tools:layout="@layout/fragment_admin_home" />
+    <fragment
+        android:id="@+id/MenuAddUsers"
+        android:name="com.example.aasv11.Admin.fragments.AddUser"
+        android:label="Manage Users"
+        tools:layout="@layout/fragment_add_user" />
+    <fragment
+        android:id="@+id/menuLogout"
+        android:name="com.example.aasv11.Admin.fragments.Logout"
+        android:label="Logout"
+        tools:layout="@layout/popup" />
+    <fragment
+        android:id="@+id/menuAddClass"
+        android:name="com.example.aasv11.Admin.fragments.AddClass"
+        android:label="Manage Courses"
+        tools:layout="@layout/fragment_add_class" />
+</navigation>

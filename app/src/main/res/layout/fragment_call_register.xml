@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lecturer.fragments.CallRegister">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/samsung_fade"
+        android:backgroundTint="#66000000"
+        android:backgroundTintMode="src_over">
+
+        <Button
+            android:id="@+id/btnCodeGen"
+            android:layout_width="146dp"
+            android:layout_height="44dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#83E64A19"
+            android:backgroundTintMode="src_atop"
+            android:text="GENERATE CODE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.661" />
+
+        <TextView
+            android:id="@+id/tv_AGC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.539" />
+
+        <TextView
+            android:id="@+id/tv_Cname"
+            android:layout_width="145dp"
+            android:layout_height="53dp"
+            android:fontFamily="@font/timmana"
+            android:text="Class Name"
+            android:textColor="@color/colorGrey"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.172"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.282" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="311dp"
+            android:layout_height="45dp"
+            android:fontFamily="serif"
+            android:text="Please click on the &quot;GENERATE CODE&quot; button in order to get a code for today's class"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.114" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="228dp"
+            android:layout_height="5.5dp"
+            android:background="@drawable/border2"
+            android:backgroundTint="#77E64A19"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.17000002" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

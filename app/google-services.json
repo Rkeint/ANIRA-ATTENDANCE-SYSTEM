@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "637824533849",
+    "firebase_url": "https://anira-a41c6.firebaseio.com",
+    "project_id": "anira-a41c6",
+    "storage_bucket": "anira-a41c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637824533849:android:2d7a416d8690b10856f848",
+        "android_client_info": {
+          "package_name": "com.example.aasv11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637824533849-mbdp3f9u59gr3m60a9u0f1j2v481r524.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aasv11",
+            "certificate_hash": "0a3726091e6776a03569fc9d5dbbbd6bd04630a1"
+          }
+        },
+        {
+          "client_id": "637824533849-n10ue958pkefltsmt6kjv3nt46h7intq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqizk1pTLPMCBlJ2qqLOSCHfdWkEVeGAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637824533849-n10ue958pkefltsmt6kjv3nt46h7intq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
